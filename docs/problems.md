@@ -61,3 +61,26 @@ Too many components connected at once.
 Adopted incremental debugging:
 - Tested power first
 - Built the circuit step by step
+
+## Additional Issues During Experimentation R2
+
+### Problem
+The circuit frequently stopped working after small modifications.
+
+### Cause
+Changing components without maintaining reference points caused wiring mistakes.
+
+### Solution
+Adopted a more controlled approach:
+- Changed only one component at a time
+- Verified connections before powering the circuit
+
+
+### Problem
+Difficulty maintaining a working circuit after multiple changes.
+
+### Cause
+Loss of circuit stability due to repeated handling and wiring adjustments.
+
+### Solution
+Rebuilt the circuit from scratch when issues became unclear instead of trying to fix everything at once.
